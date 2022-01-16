@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(5, 5, 83);
+    color: #3eb2e2;
+}
+
+nav img{
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+nav h1 {
+    height: 100%;
+    margin-left: 30%;
+    font-size: 30px;
+    padding-top: 20px;
+    width: 250px;
+    float: left;
+}
+
+nav h2{
+    height: 100%;
+    float: right;
+    padding-top: 20px;
+    margin-right: 15px;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+main .CountriesBox{
+    width: 30%;
+    height: 95%;
+    margin-left: 20px;
+    /* border: 3px solid #3eb2e2;  */
+    border-radius: 8px;
+    overflow: auto;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+main .CountriesBox .CountryBox{
+    width: 90%;    
+    height: 30px;
+    border: rgb(5, 5, 83)2px solid;
+    border-radius: 16px;
+    margin-left: 18px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 22px;
+    color: rgb(5, 5, 83);
+    background-color:#3eb2e2  ;
+    cursor: pointer;
+}
+main .CountriesBox .CountryBox:hover{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    box-shadow: rgb(5, 5, 83) 0px 5px 15px;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(5, 5, 83); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(21, 21, 173); 
+  }
+
+
+main .Graphique{
+    width: 65%;
+    height: 95%;
+    margin-left: 34%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    /* height: 90px; */
+    background-color: rgb(5, 5, 83);
+    text-align: center;
+    font-size: 26px;
+    color: #3eb2e2;
+    padding: 10px;
+}
